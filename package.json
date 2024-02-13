@@ -2,7 +2,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "release": "commit-and-tag-version"
+    "release-patch": "commit-and-tag-version --release-as patch",
+    "release-minor": "commit-and-tag-version --release-as minor",
+    "release-major": "commit-and-tag-version --release-as major"
   },
   "version": "1.0.0",
   "author": "",
